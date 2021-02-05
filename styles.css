@@ -162,6 +162,10 @@ h2 span {
   background-image: url(Background-Illustration.png);
 }
 
+.garden-photo{
+  width:400px;
+}
+
 ul.skills {
   padding: 0;
   text-align: left;
@@ -202,9 +206,9 @@ h4 {
 h5 {
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-decoration:underline;
-  text-underline-offset: 10px;
-  text-decoration-color: #E46F3F;
+  border-bottom: 2px solid #E46F3F;
+  padding-bottom: 10px;
+  width: fit-content;
 
 }
 
