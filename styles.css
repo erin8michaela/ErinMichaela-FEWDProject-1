@@ -40,6 +40,8 @@ a:hover {
 
 /* Section Styles */
 
+/* -- Navigation */
+
 .main-nav {
   width: 100%;
   background: #4D552C;
@@ -76,9 +78,11 @@ a:hover {
   color: #FEFF05;
 }
 
+/* -- Main Header */
+
 header {
   text-align: center;
-  background: #EFEBE2;
+  background:url('images/background-food.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -87,47 +91,57 @@ header {
 header {
   line-height: 1.5;
 }
+
+/* Home Page Profile Image */
+
 header .profile-image {
   margin-top: 50px;
-  width: 271.32px;
+  width: 150px;
   height: 150px;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: rotate(360deg);
+  transform: scale(1.3);
 }
 
-/* CV Page Image */
+/* Experience Page Profile Image */
+
 header .cv-image {
   margin-top: 50px;
-  width: 271.32px;
+  width: 150px;
   height: 150px;
   transition: all .5s;
 }
 
-h1 span {
-  font-family:'Marselis Serif Pro',Serif;
-  background-color:#FEFF05;
-  letter-spacing: 2px;
+header .cv-image:hover {
+  transform: rotate(90deg);
 }
 
+/* Name Formatting */
 .tag {
   color: black;
   padding: 10px;
   display: table;
   margin: 10px auto;
 }
+
+/* Name Text Styling */
+h1 span {
+  font-family:'Marselis Serif Pro',Serif;
+  background-color:#FEFF05;
+  letter-spacing: 2px;
+}
+
+/* Subtitle Styling */
 .location {
   background-color: #EFEBE2;
-  color: black;
+  color: #E46F3F;
   text-transform:uppercase;
 }
 
-.cv-subtitle {
-  background-color: #EFEBE2;
-  color: black;
-  text-transform:uppercase;
-}
+
+
+/* Main Elements - Home */
 
 h2 span {
   font-family:'Marselis Serif Pro',Serif;
@@ -145,6 +159,7 @@ h2 span {
 }
 .card:hover {
   border-color: #E46F3F;
+  background-image: url(Background-Illustration.png);
 }
 
 ul.skills {
@@ -167,15 +182,48 @@ ul.skills {
   opacity:50%;
 }
 
-/* CV Experience */
+/* Main Elements - Experience */
+
 .experience{
   text-align:left;
-  margin: 0px 100px;
+  padding-top: 50px;
+  margin: 0px 50px;
+  width:75%;
+}
+
+h4 {
+  font-family:'Client Mono', Mono;
+  color:#E46F3F;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align:left;
+}
+
+h5 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration:underline;
+  text-underline-offset: 10px;
+  text-decoration-color: #E46F3F;
+
+}
+
+ul.experience-details {
+  padding: 10px;
+  text-align: left;
+}
+
+.experience-details li{
+  line-height:1.2;
+  padding-bottom: 20px;
+  width:80%;
+
 }
 
 .education{
   text-align:left;
   margin: 0px 50px;
+  padding-top: 100px;
 }
 
 .education h3 {
@@ -183,12 +231,13 @@ ul.skills {
   color:#E46F3F;
   letter-spacing: 2px;
   text-align:left;
-
 }
+
 .cv li, .clients li {
   display:block;
 }
 
+/* Footer */
 
 footer {
   width: 100%;
