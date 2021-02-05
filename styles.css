@@ -237,6 +237,14 @@ ul.experience-details {
   display:block;
 }
 
+/* Main Elements - Jackson */
+.jackson-photo{
+  margin-top: 50px;
+  width: 600px;
+  height: 397.92px;
+  text-align:center;
+}
+
 /* Footer */
 
 footer {
